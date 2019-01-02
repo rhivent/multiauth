@@ -1,0 +1,17 @@
+sumber:
+Multiple Authentication System Laravel 5.4 | 5.5 | 5.6 | 5.7
+
+https://medium.com/hello-laravel/multiple-authentication-system-laravel-5-4-ac94c759638a
+
+1.Create a admins migration table
+2.Admin Model
+3.go to App/Exceptions/Handler.php
+4. go to app/Http/Middleware/RedirectIfAuthenticated.php
+5. Create Admin controller
+6.php artisan make:controller auth/AdminLoginController
+7. go to config/auth.php
+8..Route file web route
+9. create => views/admin/layouts/app.blade.php
+10.create => views/admin/dashboard.blade.php
+11.create views/admin/auth/login.blade.php
+12.create views/admin/auth/register.blade.php
